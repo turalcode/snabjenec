@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- <base href="/"> -->
+
+        <title>Снабженец</title>
+        <meta name="description" content="Снабженец" />
+
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+
+        <link rel="icon" href="images/favicon.png" />
+        <meta property="og:image" content="images/preview.jpg" />
+
+        <link
+            rel="stylesheet"
+            href="libs/bootstrap/css/bootstrap-reboot.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="libs/bootstrap/css/bootstrap-grid.min.css"
+        />
+
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/media.css" />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div>
+                <header class="header">
+                    <div class="container">
+                        <div class="header__content">
+                            <div class="header__logo">
+                                <a href="/">
+                                    <img src="images/logo-1.jpg" alt="#" />
+                                    <img src="images/logo-2.jpg" alt="#" />
+                                </a>
+                            </div>
+
+                            <address class="header__address">
+                                <div>г. Киров, ул. Базовая, 4, оф.100</div>
+                                <a href="#">схема проезда</a>
+                            </address>
+
+                            <div class="header__schedule">
+                                Пн-пт: 8:30-16:30
+
+                                <ul class="header__soc">
+                                    <li>
+                                        <a href="#">
+                                            <img src="images/vk.png" alt="#" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="header__phones">
+                                <li>
+                                    <a href="tel:+78332703579"
+                                        >+7(833)270-35-79</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="tel:+78332268351"
+                                        >+7(833)226-83-51</a
+                                    >
+                                </li>
+                            </ul>
+
+                            <button id="burger-btn" class="burger-btn">
+                                &#9776;
+                            </button>
+                        </div>
+                    </div>
+
+                    <nav class="nav">
+                        <div class="nav__top">
+                            <div class="container">
+                                <ul>
+                                    <li><a href="#">Каталог</a></li>
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="nav__bottom">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img
+                                                src="images/nav-1.png"
+                                                alt="#"
+                                            />
+                                            Изделия из резины и силикона
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img
+                                                src="images/nav-2.png"
+                                                alt="#"
+                                            />
+                                            АТИ и полимерные материалы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img
+                                                src="images/nav-6.png"
+                                                alt="#"
+                                            />
+                                            Соендинения и хомуты
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img
+                                                src="images/nav-5.png"
+                                                alt="#"
+                                            />
+                                            Метизы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img
+                                                src="images/nav-3.png"
+                                                alt="#"
+                                            />
+                                            Инструменты и расходные материалы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img
+                                                src="images/nav-4.png"
+                                                alt="#"
+                                            />
+                                            Автоаксессуары и автохимия
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+                <nav id="nav-m" class="nav-m">
+                    <div class="container">
+                        <ul class="nav-m__menu-list">
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+
+                        <address class="nav-m__address">
+                            <div>г. Киров, ул. Базовая, 4, оф.100</div>
+                            <a href="#">схема проезда</a>
+                        </address>
+
+                        <div class="nav-m__schedule">
+                            Пн-пт: 8:30-16:30
+
+                            <ul class="nav-m__soc">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/vk.png" alt="#" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="nav-m__phones">
+                            <li>
+                                <a href="tel:+78332703579">+7(833)270-35-79</a>
+                            </li>
+                            <li>
+                                <a href="tel:+78332268351">+7(833)226-83-51</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <main>
+                <section class="first-screen">
+                    <div class="container">
+                        <div class="first-screen__content">
+                            <img src="images/first-screen.jpg" alt="#" />
+                            <h1 class="first-screen__title">
+                                Изготовление и ремонт РВД
+                            </h1>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="h-catalog">
+                    <div class="container">
+                        <h2 class="h-catalog__title">Каталог продукции</h2>
+
+                        <div class="h-catalog__content">
+                            <div class="row g-5">
+                                <div class="col-12">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#"
+                                                >Резинотехнические изделия</a
+                                            >
+                                        </h3>
+
+                                        <ul class="h-catalog__item-list">
+                                            <li>
+                                                <a href="#"
+                                                    >Рукава и шланги
+                                                    резиновые</a
+                                                >
+                                                <a href="#"
+                                                    >Рукава и шланги ПВХ</a
+                                                >
+                                                <a href="#"
+                                                    >Рукава силиконовые</a
+                                                >
+                                                <a href="#">Ремни приводные</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">Технопластины</a>
+                                                <a href="#">Манжеты</a>
+                                                <a href="#">Сальники</a>
+                                                <a href="#">Кольца</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#"
+                                                    >Ленты конвейерные,<br />ремни
+                                                    плоские</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">РВД Ремонт РВД</a>
+                                        </h3>
+
+                                        <ul class="h-catalog__item-list">
+                                            <li>
+                                                <a href="#"
+                                                    >Защита для РВД
+                                                    (пластиковая)</a
+                                                >
+                                                <a href="#"
+                                                    >Ремонт шлангов ГУРА</a
+                                                >
+                                                <a href="#"
+                                                    >РДВ с фитингами DK</a
+                                                >
+                                                <a href="#"
+                                                    >РВД с фитингами DKOL</a
+                                                >
+                                                <a href="#"
+                                                    >РВД с фитингами DKOS</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">АТИ</a>
+                                        </h3>
+
+                                        <ul class="h-catalog__item-list">
+                                            <li>
+                                                <a href="#">Паронит</a>
+                                                <a href="#"
+                                                    >Лист асбестостальной</a
+                                                >
+                                                <a href="#"
+                                                    >Набивка сальниковая</a
+                                                >
+                                                <a href="#"
+                                                    >Картон прокладочный</a
+                                                >
+                                                <a href="#"
+                                                    >Шнуры асбестовые ШАОН</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">Автоаксессуары</a>
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">Автохимия</a>
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#"
+                                                >Материалы для ремонта шин и
+                                                камер</a
+                                            >
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#"
+                                                >Полимерные<br />материалы</a
+                                            >
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">Сварочные материалы</a>
+                                        </h3>
+
+                                        <ul class="h-catalog__item-list">
+                                            <li>
+                                                <a href="#">Электроды</a>
+                                                <a href="#"
+                                                    >Сварочная проволока</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">Метизы</a>
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">Хомуты</a>
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#"
+                                                >Перчатки,<br />ветошь</a
+                                            >
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#">Инструменты</a>
+                                        </h3>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <section class="h-catalog__item">
+                                        <h3 class="h-catalog__item-title">
+                                            <a href="#"
+                                                >Камлоки, переходники, ремонтные
+                                                соединения</a
+                                            >
+                                        </h3>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="steps">
+                    <div class="container">
+                        <h2 class="steps__title">
+                            Три шага до получения товара
+                        </h2>
+
+                        <div class="steps__content">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <section class="steps__item">
+                                        <div class="steps__item-text">
+                                            <h3>
+                                                Три шага до получения товара
+                                            </h3>
+                                            <p>
+                                                Выбираете товар из ассортимента
+                                                нашего магазина или онлайн
+                                                каталога
+                                            </p>
+                                        </div>
+
+                                        <div class="steps__item-img">
+                                            <img
+                                                src="images/steps-1.png"
+                                                alt="#"
+                                            />
+                                        </div>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="steps__item">
+                                        <div class="steps__item-text">
+                                            <h4>Заявка</h4>
+                                            <p>
+                                                Оставляете заявку менеджеру по
+                                                телефону. Вам подскажут цену и
+                                                наличие
+                                            </p>
+                                        </div>
+
+                                        <div class="steps__item-img">
+                                            <img
+                                                src="images/steps-2.png"
+                                                alt="#"
+                                            />
+                                        </div>
+                                    </section>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <section class="steps__item">
+                                        <div class="steps__item-text">
+                                            <h4>Самовывоз с нашего склада</h4>
+                                            <p>
+                                                Менеджер сообщит когда товар
+                                                будет готов к выдаче и Вы
+                                                сможете забрать его со склада
+                                                магазина, предварительно
+                                                согласовав время и условия
+                                                самовывоза
+                                            </p>
+                                        </div>
+
+                                        <div class="steps__item-img">
+                                            <img
+                                                src="images/steps-3.png"
+                                                alt="#"
+                                            />
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="h-about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="h-about__item">
+                                    <h2 class="h-about__title">О компании</h2>
+
+                                    <p>
+                                        Магазин “Снабженец” работает с 2010
+                                        года, изготавливаем рукава высокого
+                                        давления и производим ремонт рукавов
+                                        РВД, в нашем магазине вы найдете большой
+                                        выбор резинотехнических изделий,
+                                        инструмента, силиконовых рукавов и
+                                        патрубков. Снабжаем различные фирмы и
+                                        заводы нашего города.
+                                    </p>
+
+                                    <p>
+                                        <b
+                                            >Снабжаем фирмы и заводы города
+                                            Кирова</b
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="h-about__item">
+                                    <img src="images/h-about.jpg" alt="#" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="form__img">
+                                    <img src="images/form.png" alt="#" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-10">
+                                <form action="/" method="POST">
+                                    <h2 class="form__title">
+                                        Если у вас есть вопросы или нужна помощь
+                                        в подборе товара, оставьте заявку и мы
+                                        дадим подробную консультацию
+                                    </h2>
+
+                                    <fieldset>
+                                        <div class="form__group">
+                                            <label for="name">Ваше имя</label>
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                id="name"
+                                            />
+                                        </div>
+                                        <div class="form__group">
+                                            <label for="phone"
+                                                >Ваш телефон</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="phone"
+                                                id="phone"
+                                            />
+                                        </div>
+                                    </fieldset>
+
+                                    <textarea
+                                        name="comment"
+                                        rows="2"
+                                        placeholder="Комментарий (по желанию)"
+                                    ></textarea>
+
+                                    <input
+                                        type="submit"
+                                        value="Отправить заявку"
+                                    />
+
+                                    <fieldset class="form__privacy">
+                                        <input type="radio" name="privacy" />
+                                        <span>
+                                            Я соглашаюсь на обработку
+                                            персональных данных и принимаю
+                                            условия<br />политики обработки
+                                            персональных данных.
+                                        </span>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer__col">
+                                <ul>
+                                    <li>ООО “АЛЬФА СНАБ”</li>
+                                    <li>ИНН 4345467918</li>
+                                    <li>ОГРН 1174350010097</li>
+                                    <li class="mt">
+                                        &#169; 2024, все права защищены.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer__col">
+                                <ul>
+                                    <li>
+                                        <a href="tel:78332703579"
+                                            >+7(8332)70-35-79</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="tel:78332268351"
+                                            >+7(8332)26-83-51</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="mailto:kirovrti@mail.ru"
+                                            >kirovrti@mail.ru</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="footer__col">
+                                <ul>
+                                    <li>Пн-пт  8:30 до 16:30</li>
+                                    <li>
+                                        610035, г. Киров, ул. Базовая, 4, оф.100
+                                    </li>
+                                    <li><a href="#">Схема проезда</a></li>
+                                    <li class="mt">
+                                        <a href="#"
+                                            >Политика конфиденциальности</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <div class="footer__col">
+                                <ul>
+                                    <li><a href="#">Каталог</a></li>
+                                    <li><a href="#">Госты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+            <script src="js/common.js"></script>
+        </div>
+    </body>
+</html>
